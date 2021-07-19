@@ -8,3 +8,16 @@ function soma(n1,n2){
  }
  console.log(setReplace("Vai Japão" , "Japão" , "Brasil"));
  */
+
+ function validarIdade(idade){
+     var validar;
+     if(idade >=18){
+         validar = true;
+     }else{
+         validar = false;
+     }
+     return validar;
+ }
+
+ var idade = prompt("Qual a sua idade?");
+ alert(validarIdade(idade));
